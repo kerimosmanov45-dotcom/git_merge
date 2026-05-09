@@ -1,0 +1,20 @@
+  239  cd Git/060326-ptm/lesson2_branches/
+  240  ls -al
+  241  cd
+  242  cd Git/060326-ptm/first_lesson/
+  243  ls 0al
+  244  ls -al
+  245  git checkout
+  246  ls -al | grep 'txt' 
+  247  git status
+  248  git commit -am "2 modifiedfiles"
+  249  git push 
+  250  git push --set-upstream origin feature
+  251  git commit --amend
+  252  git status
+  253  git checkout main
+  254  git merge feature 
+  255  git status
+  256  history > history.txt
+  257  history | tail -10 > history.txt
+  258  history | tail -20 > history.txt
